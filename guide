@@ -1,0 +1,11 @@
+This project will open in only Netbeans IDE.
+
+DataBase Connection
+File path -- userregistration\src\java\com\isecure\DB\getConfig.java
+Here change the url, username nad passwword as per your database.
+
+Create a table name - registration in database 
+
+create table userdata(name varchar(100),address varchar(200),email varchar(100),mobile varchar(15),date date, gender enum('male','female','other'),department varchar(50),program varchar(100),branch varchar(100),admission int,password varchar(100)); 
+
+Server- Apcahe Tomcate 8.5
